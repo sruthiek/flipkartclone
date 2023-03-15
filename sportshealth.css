@@ -1,0 +1,150 @@
+nav form button{
+    background-color: white;
+}
+.fa-magnifying-glass{
+
+    padding-top: 10px ;
+    color: rgb(24, 131, 218);
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 5px;
+    
+    }
+    .explus{
+        color: yellow;
+    }
+    .hoverlogin{
+        position: absolute;
+        top: 60%;
+        height: 350px;
+        width: 230px;
+        margin-left: -100px;
+        background-color: white;
+        box-shadow: -5px 5px 7px rgba(0, 0, 0,0.2),5px 5px 10px rgba(0, 0, 0,0.2);
+        
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+        font-weight: 500;
+        color: black;
+        display: none;
+    
+        
+    }
+
+    .triangle{
+        position: relative;
+        top: -8px;
+        height: 0;
+        width: 0;
+        border-left: 10px solid transparent;
+        border-right:10px solid transparent ;
+        border-bottom: 12px solid white;
+    }
+    /* signup option in the button */
+    .newuser{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    .newuser a{
+        color: royalblue;
+        text-decoration: none;
+    }
+    
+    .newuser a:hover{
+    text-decoration: underline;
+    }
+    /* login icons */
+    .loginmenu{
+        width: 230px;
+        margin-top: 23px; 
+        
+       
+    
+    }
+    .loginmenu i{
+        margin-top: 2px;
+    }
+    .menulist{
+        display: flex;
+        padding: 8px 0px;
+    }
+    .menulist p{
+        padding-left: 22px;
+    }
+    .menulist i{
+       color: royalblue;
+    }
+    /* hover cheyumbo mathrm login detail kanikkan */
+    .btn:hover .hoverlogin{
+        display: flex;
+        cursor: pointer;
+    }
+    /* more section of flipkart */
+    .angledownIcon:hover #moreicon{
+    transform: rotate(-180deg);
+    transition: 0.5s;
+    }
+    .moreoptiondisplaycontainer{
+        position: relative;
+        height: 1px;
+        display: none;
+        }
+    .moreoptioncontent{
+        width: 300px;
+        position: absolute;
+        border-top: 20px #2874fe;
+        margin-left: -100px;
+        box-shadow:  -5px 5px 7px rgba(0, 0, 0,0.2),5px 5px 10px rgba(0, 0, 0,0.2);
+        background-color: white;
+        color: black;
+        border-radius: 4px;
+    }
+    .moreoption{
+        display: flex;
+        padding: 15px;
+       
+    }
+    .moreoption p{
+        padding-left: 10px;
+    }
+    .moreoption i{
+        font-size: 16px;
+        color: #2874fe;
+        margin-top: 5px;
+    }
+    .angledownIcon:hover .moreoptiondisplaycontainer{
+        display: block;
+    }
+
+
+    /* first row */
+    #frow {
+        
+        box-shadow:-5px 5px 7px rgba(0, 0, 0,0.2),5px 5px 10px rgba(0, 0, 0,0.2) ;
+      
+       
+    }
+
+    /* footerr */
+footer{
+    background-color: rgb(6, 3, 44);
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.vertical{
+    border-left: 1px solid grey;
+    height: 300px;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
